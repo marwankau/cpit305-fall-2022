@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture20.udp.chat.instance1.Demo",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture20.udp.chat.instance2.Demo",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPSender",
+            "request": "launch",
+            "mainClass": "lecture20.udp.example2.UDPSender",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPReceiver",
+            "request": "launch",
+            "mainClass": "lecture20.udp.example2.UDPReceiver",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPReceiver",
+            "request": "launch",
+            "mainClass": "lecture20.udp.UDPReceiver",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPSender",
+            "request": "launch",
+            "mainClass": "lecture20.udp.UDPSender",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture20.inet.Demo",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
             "name": "Launch Client",
             "request": "launch",
             "mainClass": "lecture19.group_chat.client.Client",

@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Receiver extends Thread {
@@ -27,9 +28,15 @@ public class Receiver extends Thread {
       Scanner recScanner = new Scanner(in);
       
       String line;
+      boolean connection_lost = false;
 
       while (true) {
+        try {
         line = recScanner.nextLine();
+        } catch (NoSuchElementException e) {
+          connection_lost = true;
+          break;
+        }
   
         if (line.equalsIgnoreCase("bye")) break;
 
@@ -40,7 +47,11 @@ public class Receiver extends Thread {
         }
       }
 
-      pw.println("bye");
+      if (connection_lost) {
+        System.out.println("client lost connection");
+      } else {
+        pw.println("bye");
+      }
       clientsReceivers.remove(pw);  // critical Section, it should be handle
 
       socket.close();
