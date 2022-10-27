@@ -11,6 +11,7 @@ public class ReadText {
         InputStreamReader in = new InputStreamReader(fis);
         BufferedReader reader = new BufferedReader(in);
 
+
         String line;
 
         while ((line = reader.readLine()) != null) {
