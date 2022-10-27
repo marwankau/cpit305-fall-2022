@@ -8,6 +8,41 @@
             "type": "java",
             "name": "Launch Demo",
             "request": "launch",
+            "mainClass": "lecture13.deadlock.solution.Demo",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileTree",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileTree",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileCreator",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileCreator",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileBrowser",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileBrowser",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.Demo",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
             "mainClass": "lecture13.bank.solution2.Demo",
             "projectName": "cpit305-fall-2022_be238d82"
         },
