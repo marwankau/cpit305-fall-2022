@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "lecture21.tcpip.filesender.Client",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "lecture21.tcpip.filesender.Server",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "lecture21.tcpip.obj.Client",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "lecture21.tcpip.obj.Server",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
             "name": "Launch Demo",
             "request": "launch",
             "mainClass": "lecture20.udp.chat.instance1.Demo",
