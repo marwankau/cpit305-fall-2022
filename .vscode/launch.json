@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Sqlite",
+            "request": "launch",
+            "mainClass": "lecture22.Sqlite",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "lecture22.App",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "lecture21.tcpip.filesender.Client",
+            "projectName": "cpit305-fall-2022_422c47"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "lecture21.tcpip.filesender.Server",
+            "projectName": "cpit305-fall-2022_422c47"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intro",
+            "request": "launch",
+            "mainClass": "lecture21.db.Intro",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
             "name": "Launch Client",
             "request": "launch",
             "mainClass": "lecture21.tcpip.filesender.Client",
