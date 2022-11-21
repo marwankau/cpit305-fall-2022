@@ -219,4 +219,18 @@ public class Interactive {
 
         return str;
     }
+
+    private static void deleteEmployee(RandomAccessFile raf) throws IOException {
+        long pos = raf.getChannel().position();
+        raf.seek(raf.length() - RECORD_SIZE);
+        int id = raf.readInt();
+        String name = readFixedString(raf);
+        double salary = raf.readDouble();
+        raf.seek(pos);
+        raf.writeInt(id);
+        writeFixedString(name, raf);
+        raf.writeDouble(salary);
+        raf.setLength(raf.length() - RECORD_SIZE);
+
+    }
 }
