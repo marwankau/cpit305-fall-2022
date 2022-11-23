@@ -79,14 +79,14 @@ public class Interactive {
         System.out.println("Choose form following:");
 
         System.out.println("1. Edit");
-        System.out.println("2. Delete (Not implemented yet)");
+        System.out.println("2. Delete");
         
         String option = keyboard.nextLine();
 
         if (option.equals("1")) {
             editEmployee(keyboard, raf);
         } else if (option.equals("2")) {
-            System.out.println("Not implemented yet");
+            deleteEmployee(raf);
         } else {
             System.out.println("Wrong choice!");
         }
@@ -219,4 +219,17 @@ public class Interactive {
 
         return str;
     }
+    
+    private static void deleteEmployee(RandomAccessFile raf) throws IOException {
+        
+        long pos = raf.getChannel().position();
+        
+        for (int i = 0; i <= RECORD_SIZE; i++) {
+           writeFixedString(" ", raf);
+        }
+       
+        System.out.println("Employee info has been deleted");
+  
+    }
+    
 }
