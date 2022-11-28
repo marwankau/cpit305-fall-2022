@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Interactive",
+            "request": "launch",
+            "mainClass": "lecture06.bytestream.Interactive",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPReceiver",
+            "request": "launch",
+            "mainClass": "lecture20.udp.example2.UDPReceiver",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPSender",
+            "request": "launch",
+            "mainClass": "lecture20.udp.example2.UDPSender",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture20.inet.Demo",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
             "name": "Launch Sqlite",
             "request": "launch",
             "mainClass": "lecture22.Sqlite",
@@ -283,6 +311,41 @@
             "request": "launch",
             "mainClass": "lecture14.bank.solution.Demo",
             "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture13.deadlock.solution.Demo",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileTree",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileTree",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileCreator",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileCreator",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileBrowser",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileBrowser",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.Demo",
+            "projectName": "cpit305-fall-2023-2-_480eb7b3"
         },
         {
             "type": "java",
